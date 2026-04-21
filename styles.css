@@ -994,8 +994,7 @@ p {
    Animations & Reveal
    ==================== */
 .reveal {
-    opacity: 1;
-    transform: translate(0, 0);
+    opacity: 0;
     transition: all var(--trans-slow);
 }
 
@@ -1004,10 +1003,10 @@ p {
     transform: translate(0, 0);
 }
 
-.fade-bottom { transform: translateY(0); }
-.fade-up { transform: translateY(0); }
-.fade-left { transform: translateX(0); }
-.fade-right { transform: translateX(0); }
+.fade-bottom { transform: translateY(40px); }
+.fade-up { transform: translateY(-40px); }
+.fade-left { transform: translateX(-40px); }
+.fade-right { transform: translateX(40px); }
 /* ====================
    Responsive Design
    ==================== */
